@@ -1,0 +1,9 @@
+opencv-python
+numpy
+Pillow
+
+# TensorFlow na MacBookach z Apple Silicon (M1/M2/M3)
+tensorflow-macos; sys_platform == "darwin" and platform_machine == "arm64"
+
+# TensorFlow na innych systemach (Windows/Linux/macOS Intel)
+tensorflow; sys_platform != "darwin" or platform_machine != "arm64"
